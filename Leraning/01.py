@@ -1,6 +1,3 @@
-from xml.sax.xmlreader import InputSource
-
-
 Inputs = [1,2,3,4,5]
 weights = [6,7,8,9,10]
 bias = 3
