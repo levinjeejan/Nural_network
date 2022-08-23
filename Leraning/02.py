@@ -11,4 +11,5 @@ bias3 = 0.5
 output = [Inputs[0]*weights1[0]+  Inputs[1]*weights1[1]+  Inputs[2]*weights1[2]+ Inputs[3]*weights1[3]+ bias1,
           Inputs[0]*weights2[0]+  Inputs[1]*weights2[1]+  Inputs[2]*weights2[2]+ Inputs[3]*weights2[3]+ bias2,
           Inputs[0]*weights3[0]+  Inputs[1]*weights3[1]+  Inputs[2]*weights3[2]+ Inputs[3]*weights3[3]+ bias3]
+          
 print(output)
